@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hack-a-thon-tingcc
+  host: hack-a-thon-tingcc
+  disk_quota: 1024M
+  services:
+  - hack-a-thon-tingcc-cloudantNoSQLDB
+  - hack-a-thon-tingcc-iotf-service
